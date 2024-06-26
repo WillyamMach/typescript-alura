@@ -10,9 +10,9 @@ import { NegociacoesView } from '../views/negociacoes-view.js';
 export class NegociacaoController {
     @domInjector('#data')
     private inputData: HTMLInputElement;
-    @domInjector("#quantidade")
+    @domInjector('#quantidade')
     private inputQuantidade: HTMLInputElement;
-    @domInjector("#valor")
+    @domInjector('#valor')
     private inputValor: HTMLInputElement;
     private negociacoes = new Negociacoes();
     private negociacoesView = new NegociacoesView('#negociacoesView');

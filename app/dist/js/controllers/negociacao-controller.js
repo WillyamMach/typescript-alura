@@ -49,10 +49,10 @@ __decorate([
     domInjector('#data')
 ], NegociacaoController.prototype, "inputData", void 0);
 __decorate([
-    domInjector("#quantidade")
+    domInjector('#quantidade')
 ], NegociacaoController.prototype, "inputQuantidade", void 0);
 __decorate([
-    domInjector("#valor")
+    domInjector('#valor')
 ], NegociacaoController.prototype, "inputValor", void 0);
 __decorate([
     inspect,
